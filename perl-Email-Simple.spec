@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Email
-%define	pnam	Simple
+%define		pdir	Email
+%define		pnam	Simple
 Summary:	Email::Simple - email handling, simply
 Summary(pl):	Email::Simple - obs³uga poczty elektronicznej, po prostu
 Name:		perl-Email-Simple
