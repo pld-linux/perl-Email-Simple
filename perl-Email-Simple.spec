@@ -9,13 +9,13 @@ Summary:	Email::Simple - email handling, simply
 Summary(pl):	Email::Simple - obs³uga poczty elektronicznej, po prostu
 Name:		perl-Email-Simple
 Epoch:		1
-Version:	1.9
+Version:	1.91
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c6d3889a956b089e17aad95b1b94b71b
+# Source0-md5:	fdba47946948b1f618966e59d856544f
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
