@@ -9,7 +9,7 @@ Summary:	Email::Simple - email handling, simply
 Summary(pl):	Email::Simple - obs³uga poczty elektronicznej, po prostu
 Name:		perl-Email-Simple
 Version:	1.61
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
