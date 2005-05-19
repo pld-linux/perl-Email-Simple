@@ -10,7 +10,7 @@ Summary(pl):	Email::Simple - obs³uga poczty elektronicznej, po prostu
 Name:		perl-Email-Simple
 Epoch:		1
 Version:	1.92
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -45,6 +45,8 @@ to mo¿liwo¶ci Y? Poniewa¿ to ma byæ proste.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+%{__perl} -pi -e 's/(use 5.005)(03;)$/$1_$2/' Simple.pm
+
 
 %build
 %{__perl} Makefile.PL \
