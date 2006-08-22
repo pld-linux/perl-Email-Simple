@@ -10,7 +10,7 @@ Summary(pl):	Email::Simple - obs³uga poczty elektronicznej, po prostu
 Name:		perl-Email-Simple
 Epoch:		1
 Version:	1.96
-Release:	0.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
