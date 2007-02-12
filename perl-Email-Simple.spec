@@ -6,7 +6,7 @@
 %define		pdir	Email
 %define		pnam	Simple
 Summary:	Email::Simple - email handling, simply
-Summary(pl):	Email::Simple - obs³uga poczty elektronicznej, po prostu
+Summary(pl.UTF-8):   Email::Simple - obsÅ‚uga poczty elektronicznej, po prostu
 Name:		perl-Email-Simple
 Epoch:		1
 Version:	1.96
@@ -32,16 +32,16 @@ Methods are deliberately kept to a minimum. This is meant to be simple.
 No, I will not add method X. This is meant to be simple. Why doesn't it
 have feature Y? Because it's meant to be simple.
 
-%description -l pl
+%description -l pl.UTF-8
 Email::Simple to pierwszy produkt projektu "Perl Email Project",
-bêd±cego reakcj± na z³o¿ono¶æ i rosn±cy wspó³czynnik zapluskwienia
-modu³ów Mail::*. W przeciwieñstwie do Mail::*, modu³y Email::* maj±
-byæ proste w u¿yciu i w utrzymaniu, jednocze¶nie byæ szybkie i mieæ
-minimalne zale¿no¶ci, a tak¿e byæ poprawne.
+bÄ™dÄ…cego reakcjÄ… na zÅ‚oÅ¼onoÅ›Ä‡ i rosnÄ…cy wspÃ³Å‚czynnik zapluskwienia
+moduÅ‚Ã³w Mail::*. W przeciwieÅ„stwie do Mail::*, moduÅ‚y Email::* majÄ…
+byÄ‡ proste w uÅ¼yciu i w utrzymaniu, jednoczeÅ›nie byÄ‡ szybkie i mieÄ‡
+minimalne zaleÅ¼noÅ›ci, a takÅ¼e byÄ‡ poprawne.
 
-Metody s± rozmy¶lnie utrzymywane w minimalnej liczbie. To ma byæ
-proste. Nie, nie dodamy metody X. To ma byæ proste. Dlaczego nie ma
-to mo¿liwo¶ci Y? Poniewa¿ to ma byæ proste.
+Metody sÄ… rozmyÅ›lnie utrzymywane w minimalnej liczbie. To ma byÄ‡
+proste. Nie, nie dodamy metody X. To ma byÄ‡ proste. Dlaczego nie ma
+to moÅ¼liwoÅ›ci Y? PoniewaÅ¼ to ma byÄ‡ proste.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
