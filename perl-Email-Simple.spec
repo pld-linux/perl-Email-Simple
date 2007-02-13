@@ -6,7 +6,7 @@
 %define		pdir	Email
 %define		pnam	Simple
 Summary:	Email::Simple - email handling, simply
-Summary(pl.UTF-8):   Email::Simple - obsługa poczty elektronicznej, po prostu
+Summary(pl.UTF-8):	Email::Simple - obsługa poczty elektronicznej, po prostu
 Name:		perl-Email-Simple
 Epoch:		1
 Version:	1.96
