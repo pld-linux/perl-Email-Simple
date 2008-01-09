@@ -46,7 +46,8 @@ to możliwości Y? Ponieważ to ma być proste.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-%{__perl} -pi -e 's/(use 5.005)(03;)$/$1_$2/' Simple.pm
+# path should be lib/Email/Simple.pm not just Simple.pm
+#%{__perl} -pi -e 's/(use 5.005)(03;)$/$1_$2/' Simple.pm
 
 
 %build
