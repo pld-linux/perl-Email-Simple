@@ -46,9 +46,8 @@ to możliwości Y? Ponieważ to ma być proste.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-# path should be lib/Email/Simple.pm not just Simple.pm
-#%{__perl} -pi -e 's/(use 5.005)(03;)$/$1_$2/' Simple.pm
 
+%{__perl} -pi -e 's/(use 5.005)(03;)/$1_$2/' lib/Email/Simple.pm
 
 %build
 %{__perl} Makefile.PL \
@@ -69,6 +68,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
-%{perl_vendorlib}/%{pdir}/*.pm
-%{perl_vendorlib}/%{pdir}/%{pnam}/*.pm
-%{_mandir}/man3/*
+%{perl_vendorlib}/Email/Simple.pm
+%{perl_vendorlib}/Email/Simple/*.pm
+%{_mandir}/man3/Email::Simple*.3pm*
