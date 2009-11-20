@@ -8,9 +8,9 @@
 Summary:	Email::Simple - email handling, simply
 Summary(pl.UTF-8):	Email::Simple - obsługa poczty elektronicznej, po prostu
 Name:		perl-Email-Simple
-Epoch:		1
 Version:	2.100
-Release:	1
+Release:	2
+Epoch:		1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -19,6 +19,7 @@ Source0:	http://www.cpan.org/modules/by-module/Email/%{pdir}-%{pnam}-%{version}.
 URL:		http://search.cpan.org/dist/Email-Simple/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+Obsoletes:	perl-Email-Simple-Creator
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -29,9 +30,9 @@ Mail::* modules. In contrast, Email::* modules are meant to be simple
 to use and to maintain, pared to the bone, fast, minimal in their
 external dependencies, and correct.
 
-Methods are deliberately kept to a minimum. This is meant to be simple.
-No, I will not add method X. This is meant to be simple. Why doesn't it
-have feature Y? Because it's meant to be simple.
+Methods are deliberately kept to a minimum. This is meant to be
+simple. No, I will not add method X. This is meant to be simple. Why
+doesn't it have feature Y? Because it's meant to be simple.
 
 %description -l pl.UTF-8
 Email::Simple to pierwszy produkt projektu "Perl Email Project",
@@ -41,8 +42,8 @@ być proste w użyciu i w utrzymaniu, jednocześnie być szybkie i mieć
 minimalne zależności, a także być poprawne.
 
 Metody są rozmyślnie utrzymywane w minimalnej liczbie. To ma być
-proste. Nie, nie dodamy metody X. To ma być proste. Dlaczego nie ma
-to możliwości Y? Ponieważ to ma być proste.
+proste. Nie, nie dodamy metody X. To ma być proste. Dlaczego nie ma to
+możliwości Y? Ponieważ to ma być proste.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
