@@ -19,6 +19,7 @@ Source0:	http://www.cpan.org/modules/by-module/Email/%{pdir}-%{pnam}-%{version}.
 URL:		http://search.cpan.org/dist/Email-Simple/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+%{?with_tests:BuildRequires:	perl-Email-Date-Format}
 Obsoletes:	perl-Email-Simple-Creator
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
