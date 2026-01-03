@@ -7,15 +7,15 @@
 Summary:	Email::Simple - email handling, simply
 Summary(pl.UTF-8):	Email::Simple - obsługa poczty elektronicznej, po prostu
 Name:		perl-Email-Simple
-Version:	2.216
+Version:	2.218
 Release:	1
 Epoch:		1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Email/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	9520e2073ca7f3bffb3282f6e6e3dc3f
-URL:		http://search.cpan.org/dist/Email-Simple/
+Source0:	https://www.cpan.org/modules/by-module/Email/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	af643390d7bec05428c3d809f538072a
+URL:		https://search.cpan.org/dist/Email-Simple/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %{?with_tests:BuildRequires:	perl-Email-Date-Format}
